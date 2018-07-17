@@ -1,0 +1,52 @@
+/* * {
+	text-align: center;
+} */
+body{
+    text-align: center;
+	background: rgb(29, 77, 165);
+	font-size: 24px;
+    color: rgb(102, 83, 74);
+    margin-top: 222px;
+}
+
+
+h1{
+    font-family: 'Aldrich', sans-serif;
+}
+h2,
+h3{
+    font-family: 'Chela One', cursive;
+}
+
+#picture{
+    size: 75px;
+}
+
+#burgerbox {
+    font-family: 'Chela One', cursive;
+    font-size: 28px;
+}
+
+#BTN {
+    text-align: left;
+    font-family: 'Indie Flower', cursive;
+    color: rgb(96, 91, 91);
+    background: rgb(138, 33, 85);
+}
+
+.jumbotron {
+    text-align: center;
+    border-radius: 25px;
+    background: linear-gradient(to left, #30af89, #f1f442);
+    /* margin-left: 235px;
+    margin-right:  235px;
+    padding: 20px; 
+    width: 45%;
+    height: 550px;  */
+}
+
+.lead{
+    color: rgb(23, 31, 31);
+    text-align: center;
+    font-family: 'Indie Flower', cursive;
+}
