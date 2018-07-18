@@ -8,7 +8,7 @@ CREATE DATABASE goodburgers_db;
    id INT auto_increment, 
    burger_name VARCHAR(75),
    createdAt TIMESTAMP NOT NULL DEFAULT current_timestamp,
-   devoured BOOLEAN,
+   devoured BOOLEAN DEFAULT false,
    primary key (id)
    );
    
