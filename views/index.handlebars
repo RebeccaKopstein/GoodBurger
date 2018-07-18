@@ -13,18 +13,23 @@
 			</div>
 		</div>
 	</div>
+
+	THE ADDED BURGERS NEEDS TO GO TO THE ORDERED BURGERS FIRST WITH THE 'DEVOURED' BUTTON, ONCE CLICKED THE BURGER NEEDS TO THEN GO TO 'BURGERS IN THE BELLY'
 	<div>
-		<div class="growlin">
+		<div class="hungry">
 			<h2>Ordered burgers...</h2>
 			<ul>
 				{{#each burgers}} {{#if this.devoured}}
-				<button class="devour-burger" data-id="{{id}}">devour</button> {{this.burger_name}} {{/if}} {{/each}}
+{{!-- THIS BUTTON NEEDS TO FUNCTION ONCE AGAIN --}}
+					<button class="devour" data-id="{{id}}">DEVOUR!</button>
+				
+				{{this.burger_name}} {{/if}} {{/each}}
 			</ul>
 		</div>
 
 		<br>
 		<br>
-		<div class="yums">
+		<div class="eaten">
 			<h2>Burgers in the belly!</h2>
 			<ul>
 				{{#each burgers}} {{#unless this.devoured}} {{this.burger_name}} {{/unless}} {{/each}}
